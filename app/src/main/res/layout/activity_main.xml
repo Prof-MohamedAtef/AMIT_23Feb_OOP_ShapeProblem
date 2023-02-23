@@ -63,7 +63,7 @@
                 android:layout_marginTop="5dp"
                 android:textColor="@color/primary"
                 android:textColorHint="@color/primary"
-                android:inputType="textPersonName|textMultiLine"
+                android:inputType="number|textMultiLine"
                 android:maxLines="1"
                 android:lines="1"
                 android:gravity="top|left" />
@@ -75,7 +75,7 @@
             android:textStyle="bold"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:id="@+id/btnContinue"
+            android:id="@+id/btnCalculate"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnContinue" />
+            app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
