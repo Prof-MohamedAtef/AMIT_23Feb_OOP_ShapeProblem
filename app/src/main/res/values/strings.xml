@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_length">Enter Length</string>
+    <string name="calculate">Calculate</string>
+</resources>
