@@ -1,14 +1,19 @@
 package mo.ed.course.two.amit.day.one;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import android.os.Bundle;
 
+import mo.ed.course.two.amit.day.one.databinding.ActivityRectangleBinding;
+
 public class RectangleActivity extends AppCompatActivity {
+
+    private ActivityRectangleBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rectangle);
+        binding= DataBindingUtil.setContentView(this, R.layout.activity_rectangle);
     }
 }
