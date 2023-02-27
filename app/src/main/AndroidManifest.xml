@@ -9,24 +9,29 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/MaterialCoBridgeTheme"
         tools:targetApi="31">
-        <activity android:name=".view.activities.NavigatorActivity"
+        <activity
+            android:name=".view.activities.FavoriteFoodActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".view.activities.RectangleActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".view.activities.MainActivity"
+            android:name=".view.activities.NavigatorActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".view.activities.RectangleActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".view.activities.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
