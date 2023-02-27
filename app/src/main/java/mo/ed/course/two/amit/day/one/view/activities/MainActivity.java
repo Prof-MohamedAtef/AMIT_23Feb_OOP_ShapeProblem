@@ -1,19 +1,16 @@
-package mo.ed.course.two.amit.day.one;
+package mo.ed.course.two.amit.day.one.view.activities;
 
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
 
+import mo.ed.course.two.amit.day.one.R;
 import mo.ed.course.two.amit.day.one.area.Square;
 import mo.ed.course.two.amit.day.one.databinding.ActivityMainBinding;
 

@@ -11,17 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity
-            android:name=".RectangleActivity"
-            android:exported="true" >
+        <activity android:name=".view.activities.NavigatorActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activities.RectangleActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".view.activities.MainActivity"
             android:exported="true">
 
         </activity>

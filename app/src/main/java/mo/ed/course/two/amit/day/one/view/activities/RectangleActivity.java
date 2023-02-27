@@ -1,10 +1,11 @@
-package mo.ed.course.two.amit.day.one;
+package mo.ed.course.two.amit.day.one.view.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 import android.os.Bundle;
 
+import mo.ed.course.two.amit.day.one.R;
 import mo.ed.course.two.amit.day.one.databinding.ActivityRectangleBinding;
 
 public class RectangleActivity extends AppCompatActivity {
