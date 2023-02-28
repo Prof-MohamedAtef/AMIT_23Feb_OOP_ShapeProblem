@@ -10,4 +10,5 @@
     <color name="primary">#6a329f</color>
     <color name="hintColor">#EFEAEA</color>
     <color name="gray">#88FAF7F7</color>
+    <color name="fab_color_shadow">#862119</color>
 </resources>
