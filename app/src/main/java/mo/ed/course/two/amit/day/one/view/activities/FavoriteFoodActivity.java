@@ -33,7 +33,6 @@ public class FavoriteFoodActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding= DataBindingUtil.setContentView(this, R.layout.activity_favorite_food);
-
         getSupportFragmentManager().beginTransaction().replace(binding.headerFrame.getId(), new HeaderFragment())
                 .commitAllowingStateLoss();
         getSupportFragmentManager().beginTransaction().replace(binding.dealFrame.getId(), new DealFragment())

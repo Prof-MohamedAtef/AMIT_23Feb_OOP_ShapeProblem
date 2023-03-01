@@ -14,4 +14,7 @@
     <string name="set_delivery_location">Set Delivery Location</string>
     <string name="openDrawer">Open</string>
     <string name="closeDrawer">Close</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_email">Enter Email</string>
 </resources>
