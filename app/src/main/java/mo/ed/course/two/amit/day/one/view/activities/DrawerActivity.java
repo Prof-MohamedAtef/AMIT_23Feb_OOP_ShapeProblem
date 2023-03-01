@@ -41,27 +41,6 @@ public class DrawerActivity extends AppCompatActivity {
                 startActivity(new Intent(DrawerActivity.this, SignInActivity.class));
             }
         });
-
-        Intent intent = getIntent();
-        if (intent != null && intent.hasExtra(Constants.KEY_USERNAME) && intent.hasExtra(Constants.KEY_EMAIL)) {
-            userName = intent.getStringExtra(Constants.KEY_USERNAME);
-            email = intent.getStringExtra(Constants.KEY_EMAIL);
-            sharedPrefs.setSignInInfo(userName, email);
-            showViews();
-        } else {
-            if (userSession != null) {
-                userName = userSession.get(Constants.KEY_USERNAME);
-                email = userSession.get(Constants.KEY_EMAIL);
-                if (email!=null && userName!=null){
-                    showViews();
-                }else {
-                    drawerBinding.imageView.setVisibility(View.GONE);
-                    drawerBinding.tvName.setVisibility(View.GONE);
-                    drawerBinding.tvEmail.setVisibility(View.GONE);
-                    drawerBinding.btnSignIn.setVisibility(View.VISIBLE);
-                }
-            }
-        }
     }
 
     private void showViews() {
@@ -114,5 +93,26 @@ public class DrawerActivity extends AppCompatActivity {
                 }
             }
         });
+
+        Intent intent = getIntent();
+        if (intent != null && intent.hasExtra(Constants.KEY_USERNAME) && intent.hasExtra(Constants.KEY_EMAIL)) {
+            userName = intent.getStringExtra(Constants.KEY_USERNAME);
+            email = intent.getStringExtra(Constants.KEY_EMAIL);
+            sharedPrefs.setSignInInfo(userName, email);
+            showViews();
+        } else {
+            if (userSession != null) {
+                userName = userSession.get(Constants.KEY_USERNAME);
+                email = userSession.get(Constants.KEY_EMAIL);
+                if (email!=null && userName!=null){
+                    showViews();
+                }else {
+                    drawerBinding.imageView.setVisibility(View.GONE);
+                    drawerBinding.tvName.setVisibility(View.GONE);
+                    drawerBinding.tvEmail.setVisibility(View.GONE);
+                    drawerBinding.btnSignIn.setVisibility(View.VISIBLE);
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favorite" />
+    <item
+        android:id="@+id/music"
+        android:title="@string/music"
+        android:icon="@drawable/ic_music" />
+    <item
+        android:id="@+id/places"
+        android:title="@string/places"
+        android:icon="@drawable/ic_places" />
+    <item
+        android:id="@+id/news"
+        android:title="@string/news"
+        android:icon="@drawable/ic_news" />
+</menu>
