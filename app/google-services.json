@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633672901903",
+    "project_id": "driversapp-3dda2",
+    "storage_bucket": "driversapp-3dda2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633672901903:android:a07a30afcdefaa289b0a7a",
+        "android_client_info": {
+          "package_name": "mo.ed.course.two.amit.day.one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633672901903-tnd4lds79mai6f9b4uv1fl2mkuuemrf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCymHULgUw7DaiHacAwUtbQSE2CH64mijM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633672901903-tnd4lds79mai6f9b4uv1fl2mkuuemrf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

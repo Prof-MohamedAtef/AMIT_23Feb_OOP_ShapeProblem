@@ -14,27 +14,32 @@
         android:theme="@style/MaterialCoBridgeTheme"
         tools:targetApi="31">
         <activity
-            android:name=".view.activities.BottomNavigationViewActivity"
-            android:exported="true" >
+            android:name=".view.activities.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activities.MyForegroundServiceActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.activities.BottomNavigationViewActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".view.activities.SignInActivity"
             android:exported="false" />
         <activity
             android:name=".view.activities.DrawerActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".view.activities.SettingsActivity"
             android:exported="false" />
         <activity
             android:name=".view.activities.FavoriteFoodActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".view.activities.NavigatorActivity"
             android:exported="true" />

@@ -21,6 +21,7 @@ public class NewsFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding= DataBindingUtil.inflate(inflater, R.layout.news_layout,container,false);
+//        binding.rvNews
         return binding.getRoot();
     }
 }

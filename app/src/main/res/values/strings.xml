@@ -21,4 +21,11 @@
     <string name="music">Music</string>
     <string name="places">Places</string>
     <string name="news">News</string>
+    <string name="userName">Mohamed Atef</string>
+    <string name="taxi">Taxi</string>
+    <string name="call_driver">Call Driver</string>
+    <string name="distance">Distance</string>
+    <string name="price">Price</string>
+    <string name="eta">ETA</string>
+    <string name="payment">Payment</string>
 </resources>
